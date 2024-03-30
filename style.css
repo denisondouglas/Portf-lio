@@ -251,3 +251,91 @@ footer {
 footer.flex {
   justify-content: center;
 }
+
+@media screen and (max-width: 1000px) {
+  /* Estilos Gerais */
+  .flex {
+    flex-direction: column;
+  }
+
+  h2.title {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .topo-site .flex {
+    flex-direction: column-reverse;
+  }
+
+  /* Sessão Cabeçalho */
+  .menu-desktop {
+    display: none;
+  }
+
+  .contato {
+    text-align: center;
+  }
+
+  section.topo-site {
+    padding: 20px 10%;
+  }
+
+  .topo-site .contato {
+    margin: 20px;
+  }
+
+  .topo-site h1 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  section.topo-site .flex {
+    gap: 42px;
+  }
+
+  /* Sessão das Especialidades */
+
+  section.especialidades {
+    padding: 40px 8%;
+  }
+
+  /* Sessão do Sobre */
+
+  section .sobre {
+    padding: 40px 8%;
+  }
+
+  .sobre .txt-sobre .titulo {
+    font-size: 32px;
+    margin-top: 32px;
+  }
+
+  .btn-social {
+    text-align: center;
+  }
+
+  .img-sobre img {
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
+  /* Sessão dos Projetos */
+
+  section.portfolio {
+    padding: 80px 8%;
+  }
+
+  .img-projeto {
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
+  section.portfolio .flex {
+    gap: 40px;
+  }
+}
