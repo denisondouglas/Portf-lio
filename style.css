@@ -11,11 +11,6 @@
   display: flex;
 }
 
-img {
-  width: 300px;
-  height: 300px;
-}
-
 h2.title {
   font-size: 35px;
   text-align: center;
@@ -84,6 +79,12 @@ header a:hover {
   transform: scale(1.15);
 }
 
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
 /* Estilo do Topo do Site */
 
 section.topo-site {
@@ -106,8 +107,9 @@ section.topo-site .flex {
   font-size: 78px;
 }
 
-.topo-site.txt-topo-site {
-  margin: 40px 0;
+.txt-topo-site p {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .topo-site .img-top-site img {
@@ -192,6 +194,7 @@ section.especialidades .flex {
   transform: scale(1.05);
   box-shadow: 0 0 16px #11111188;
 }
+
 /* Estilos dos Projetos */
 
 section.portfolio {
@@ -290,6 +293,18 @@ footer.flex {
 
   img {
     width: 100%;
+    border-radius: 50%;
+  }
+
+  .contato {
+    margin: auto;
+  }
+
+  #img-sobre {
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
   }
 
   section.topo-site .flex {
